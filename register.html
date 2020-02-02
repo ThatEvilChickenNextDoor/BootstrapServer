@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register for ANGEL</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-color: #303641;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container-login">
+        <div id="title">
+            <i class="material-icons lock">add_alert</i> Register Your Device
+        </div>
+
+        <form id="register">
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">smartphone</i>
+                </div>
+                <input id="phone" placeholder="Phone number" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input id="deviceId" placeholder="Device ID" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <input type="submit" value="Register" />
+        </form>
+
+        <div class="register">
+
+            No longer need alerts?
+            <a href="/unregister.html"><button id="register-link">Remove device</button></a>
+        </div>
+
+        <!--<p>
+            <a href='https://play.google.com/store/apps/details?id=com.onradar.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+                style="display:inline-block;overflow:hidden;background:url(https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png) no-repeat;background-size: 135px auto;width:135px;height:40px;"></a>
+            
+            <a href="https://apps.apple.com/us/app/radar-toolkit/id1179413551?mt=8"
+                style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2016-12-02&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+        </p>-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="register2fa.js"></script>
+</body>
+
+</html>
