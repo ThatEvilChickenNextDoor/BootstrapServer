@@ -62,10 +62,6 @@ body {
     border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-input[type=checkbox] {
-    cursor: pointer;
-}
-
 input[type=text] {
     color: #949494;
     margin: 0;
@@ -77,75 +73,6 @@ input[type=text] {
 
 input[type=text]:focus {
     border: 1px solid #373b3d;
-}
-
-input[type=password] {
-    color: #949494;
-    margin: 0;
-    background-color: #373b3d;
-    border: 1px solid #373b3d;
-    padding: 6px 0px;
-    border-radius: 3px;
-}
-
-input[type=password]:focus {
-    border: 1px solid #373b3d;
-}
-
-input[type=number] {
-    color: #949494;
-    margin: 0;
-    background-color: #373b3d;
-    border: 1px solid #373b3d;
-    padding: 6px 0px;
-    border-radius: 3px;
-    -moz-appearance:textfield;
-}
-
-input[type=number]:focus {
-    border: 1px solid #373b3d;
-}
-
-.forgot-password {
-    position: relative;
-    bottom: 0%;
-}
-
-.forgot-password a:link {
-    color: #C1C3C6;
-    text-decoration: none;
-}
-
-.forgot-password a:visited {
-    color: #C1C3C6;
-    text-decoration: none;
-}
-
-.forgot-password a:hover {
-    color: #FFF;
-    transition: color 1s;
-}
-
-.privacy {
-    margin-top: 5px;
-    position: relative;
-    font-size: 12px;
-    bottom: 0%;
-}
-
-.privacy a:link {
-    color: #949494;
-    text-decoration: none;
-}
-
-.privacy a:visited {
-    color: #949494;
-    text-decoration: none;
-}
-
-.privacy a:hover {
-    color: #C1C3C6;
-    transition: color 1s;
 }
 
 *:focus {

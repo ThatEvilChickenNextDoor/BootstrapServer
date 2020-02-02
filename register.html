@@ -47,13 +47,26 @@
             <a href="/unregister.html"><button id="register-link">Remove device</button></a>
         </div>
 
-        <!--<p>
-            <a href='https://play.google.com/store/apps/details?id=com.onradar.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
-                style="display:inline-block;overflow:hidden;background:url(https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png) no-repeat;background-size: 135px auto;width:135px;height:40px;"></a>
-            
-            <a href="https://apps.apple.com/us/app/radar-toolkit/id1179413551?mt=8"
-                style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2016-12-02&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
-        </p>-->
+        <div class="register">
+            <h2>What's this?</h2>
+            <p>Automated Notifications using GEoLocation (ANGEL) is a system that keeps track of dangerous zones using geofencing, and warns users if they enter a dangerous zone. It uses Radar.io for geolocation and MongoDB for storage.</p>
+        </div>
+
+        <div class="register">
+            <h2>Cool! How do I sign up?</h2>
+            <p>First, you'll need the Radar Toolkit app.</p>
+            <p><a href="https://itunes.apple.com/us/app/radar-toolkit/id1179413551?mt=8" target="_blank">
+                <img src="https://s3.amazonaws.com/com.onradar.www/images/download_ios.svg" style="display: inline-block; height: 60px; width: 180px"></a>
+            </p>
+            <p><a href="https://play.google.com/store/apps/details?id=com.onradar.app" target="_blank">
+                <img src="https://s3.amazonaws.com/com.onradar.www/images/download_android.svg" style="display: inline-block; height: 60px; width: 202.5px"></a>
+            </p>
+            <p>Once downloaded, paste in our API key:</p>
+            <form>
+                <input type="text" name="publishable" value="prj_test_pk_0bcc35cc84cac95e5991d7b3f2d75c87a0b58111" size="45" readonly>
+            </form> 
+            <p>Then register for alerts using your phone number and your device ID shown in the app.</p>
+        </div>
     </div>
     <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
